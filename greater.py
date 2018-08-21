@@ -1,9 +1,9 @@
 a=input()
 b=input()
 c=input()
-if c<a>b:
+if a>b and a>c:
     print(a)
-elif a<b>c:
+elif b>a and b>c:
     print(b)
-elif a<c>b:
+elif c>a and c>b:
     print(c)
